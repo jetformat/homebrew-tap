@@ -1,28 +1,28 @@
 class Jetformat < Formula
   desc "Local Office-to-PDF and PDF CLI"
   homepage "https://jetformat.com"
-  version "0.1.3"
+  version "0.1.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.3/jetformat_0.1.3_darwin_arm64.tar.gz"
-      sha256 "f689f381aec65fa8fbc44261de05954a31a8c8eeda796c5809ac1c3cdb1e3fc6"
+      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.4/jetformat_0.1.4_darwin_arm64.tar.gz"
+      sha256 "b96d3940d98d18892c2824a9fa222f136ebf75b209d0d54ad80daad9df95b2ed"
     end
     on_intel do
-      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.3/jetformat_0.1.3_darwin_amd64.tar.gz"
-      sha256 "e4743913671ab1a41f7e14c78656d0bf32b56e3fbc44f2f5c5a92bafe10482a9"
+      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.4/jetformat_0.1.4_darwin_amd64.tar.gz"
+      sha256 "274bbf50647165d5dc44fedb3b6e2d64dd2072209ac27facb4cddc18b43f6a62"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.3/jetformat_0.1.3_linux_arm64.tar.gz"
-      sha256 "8dbb370f2112710744dd2fa15fd27c832b7da0960a7d7f726be551b907de0ba2"
+      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.4/jetformat_0.1.4_linux_arm64.tar.gz"
+      sha256 "9857ab56a96171ab30bb9dafaae385118258c8b016e6adb1f826c120c2ab3552"
     end
     on_intel do
-      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.3/jetformat_0.1.3_linux_amd64.tar.gz"
-      sha256 "9e08bc3de17c9528066099a529e9dea1ec5ae5dc846852a448f55baab16dc149"
+      url "https://github.com/jetformat/homebrew-tap/releases/download/v0.1.4/jetformat_0.1.4_linux_amd64.tar.gz"
+      sha256 "10bf42c8f5f01baf54ceaf9077302a9eb6ec6e7191d3622833fe3d704d7c343e"
     end
   end
 
